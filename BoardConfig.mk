@@ -44,5 +44,8 @@ TARGET_RELEASETOOLS_EXTENSIONS := $(DEVICE_PATH)
 # Security patch level
 VENDOR_SECURITY_PATCH := 2021-06-01
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Inherit the proprietary files
 include vendor/xiaomi/lavender/BoardConfigVendor.mk
