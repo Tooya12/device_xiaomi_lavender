@@ -55,5 +55,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     LavenderWifiOverlay
 
+# Remove Packages
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/lavender/lavender-vendor.mk)
