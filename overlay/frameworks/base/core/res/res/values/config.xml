@@ -139,7 +139,4 @@
         <item>1</item> <!-- COLOR_MODE_BOOSTED -->
         <item>2</item> <!-- COLOR_MODE_SATURATED -->
     </integer-array>
-
-    <!-- Pocket Lock -->
-    <bool name="config_pocketModeSupported">true</bool>
 </resources>
