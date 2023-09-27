@@ -11,11 +11,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common AlphaDroud stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
 ALPHA_MAINTAINER := Ayzalme
 TARGET_FACE_UNLOCK_SUPPORTED := true
 WITH_GAPPS := true
-TARGET_INCLUDE_PIXEL_FRAMEWORK := true
 TARGET_INCLUDE_GOOGLE_APP := true
 TARGET_INCLUDE_GOOGLE_CALCULATOR := true
 TARGET_INCLUDE_GOOGLE_DESKCLOCK := true
